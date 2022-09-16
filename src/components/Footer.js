@@ -30,12 +30,12 @@ function Footer() {
             </ul>
           </div>
           <div class="footer-col">
-            <h4>online shop</h4>
+            <h4>Social</h4>
             <ul>
-              <li><Link to="/">watch</Link></li>
-              <li><Link to="/">bag</Link></li>
-              <li><Link to="/">shoes</Link></li>
-              <li><Link to="/">dress</Link></li>
+              <li><Link to="/">Facebook</Link></li>
+              <li><Link to="/">Whatsapp</Link></li>
+              <li><Link to="/">Instagram</Link></li>
+              <li><Link to="/">Twitter</Link></li>
             </ul>
           </div>
           
