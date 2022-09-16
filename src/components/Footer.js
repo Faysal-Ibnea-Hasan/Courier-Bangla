@@ -32,10 +32,10 @@ function Footer() {
           <div class="footer-col">
             <h4>Social</h4>
             <ul>
-              <li><Link to="/">Facebook</Link></li>
-              <li><Link to="/">Whatsapp</Link></li>
-              <li><Link to="/">Instagram</Link></li>
-              <li><Link to="/">Twitter</Link></li>
+              <li><a target={"_blank"} rel="noreferrer" href="https://www.facebook.com">Facebook</a></li>
+              <li><a target={"_blank"} rel="noreferrer" href="/">Whatsapp</a></li>
+              <li><a target={"_blank"} rel="noreferrer" href="https://www.instagram.com/">Instagram</a></li>
+              <li><a target={"_blank"} rel="noreferrer" href="https://twitter.com/">Twitter</a></li>
             </ul>
           </div>
           
