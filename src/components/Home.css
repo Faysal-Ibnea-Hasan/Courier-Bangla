@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.animated-typing{
+    margin: 250px;
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600px;
+    
+    
+    
+    
+}
+strong{
+    font-size: 50px;
+}
+.small-typing{
+    font-size: large;
+    
+   
+}
+.small-typing strong{
+    font-size: large;
+    
+   
+}
