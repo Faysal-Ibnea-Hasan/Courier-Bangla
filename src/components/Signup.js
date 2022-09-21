@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css'
+import { Link } from 'react-router-dom'
 
 function Signup() {
   return (
@@ -8,8 +9,8 @@ function Signup() {
       <div className="form-box">
         <div className="button-box">
           <div id="btn"></div>
-          <button type='button' className='toggle-btn' >LOGIN</button>
-          <button type='button' className='toggle-btn' >REGISTER</button>
+          <Link to="/login"><button className='toggle-btn' type='button'>LOGIN</button></Link>
+          <Link to="/signup"><button className='toggle-btn' type='button'>REGISTER</button></Link>
         </div>
         {/* <div className="social">
           <img src="./gmail.png" alt="" />
