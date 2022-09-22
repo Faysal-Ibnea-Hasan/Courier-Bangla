@@ -4,7 +4,7 @@
 
 }
 .body{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
     overflow: hidden;
@@ -26,9 +26,37 @@
     cursor: pointer;
     margin: 30px;
 }
-.card-img{
+.card-img1{
     grid-area: image;
-    background: url('../bg/bg.png');
+    background: url('../bg/p2p.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-img2{
+    grid-area: image;
+    background: url('../bg/warehouse.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-img3{
+    grid-area: image;
+    background: url('../bg/merchant.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-img4{
+    grid-area: image;
+    background: url('../bg/p&d.jpg');
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-img5{
+    grid-area: image;
+    background: url('../bg/cod.jpg');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
