@@ -12,7 +12,7 @@ function Home() {
 
           <Typed
             strings={[
-              "WELCOME TO <strong>COURIER-BANGLA<strong/>",
+              "WELCOME TO <strong>COURIER-BANGLA.<strong/>",
 
             ]}
             typeSpeed={100}
@@ -24,10 +24,10 @@ function Home() {
         <span className='small-typing'>
           <Typed
             strings={[
-              "Courier-Bangla is a place where you can send and recieve your product from anywhere and anytime in <strong>BANGLADESH.<strong/>"
+              "Courier-Bangla is a place where you can send and recieve your <br> product from anywhere and anytime in <strong>BANGLADESH.<strong/>"
 
             ]}
-            typeSpeed={50}
+            typeSpeed={25}
           />
         </span>
 
