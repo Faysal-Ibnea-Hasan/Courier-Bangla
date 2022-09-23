@@ -5,7 +5,7 @@
 }
 .body{
     height: 80vh;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     overflow: hidden;
     justify-content: center;

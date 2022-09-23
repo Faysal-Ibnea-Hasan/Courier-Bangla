@@ -5,40 +5,45 @@ import Typed from 'react-typed';
 function Home() {
   return (
     <>
+
       {/* this is for typing effect */}
       {/* npm install react-typed --force */}
-      <div className="animated-typing">
-        <span>
+      <div className="container-home">
+        
 
-          <Typed
-            strings={[
-              "WELCOME TO <strong>COURIER-BANGLA.<strong/>",
+        <div className="animated-typing">
+          <span>
 
-            ]}
-            typeSpeed={100}
-          />
-        </span>
+            <Typed
+              strings={[
+                "WELCOME TO <strong>COURIER-BANGLA.<strong/>",
 
-        <br />
+              ]}
+              typeSpeed={100}
+            />
+          </span>
 
-        <span className='small-typing'>
-          <Typed
-            strings={[
-              "Courier-Bangla is a place where you can send and recieve your <br> product from anywhere and anytime in <strong>BANGLADESH.<strong/>"
+          <br />
 
-            ]}
-            typeSpeed={25}
-          />
-        </span>
+          <span className='small-typing'>
+            <Typed
+              strings={[
+                "Courier-Bangla is a place where you can send and recieve your <br> product from anywhere and anytime in <strong>BANGLADESH.<strong/>"
 
-
-
-
-
-
-
-
+              ]}
+              typeSpeed={25}
+            />
+          </span>
+        </div>
       </div>
+
+
+
+
+
+
+
+
     </>
   )
 }

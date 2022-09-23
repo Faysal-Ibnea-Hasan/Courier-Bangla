@@ -3,10 +3,11 @@
     padding: 0;
 }
 .animated-typing{
-    margin: 300px;
+    margin: 287px;
     font-size: xx-large;
     font-family: "Montserrat", sans-serif;
     font-weight: 600px;
+    
     
     
     
@@ -24,4 +25,9 @@ strong{
     font-size: large;
     
    
+}
+.container-home{
+    height: 50vh;
+    width: 78vw;
+    margin: 300px;
 }
