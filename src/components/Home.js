@@ -6,10 +6,12 @@ function Home() {
   return (
     <>
 
+
       {/* this is for typing effect */}
       {/* npm install react-typed --force */}
       <div className="container-home">
-        
+
+
 
         <div className="animated-typing">
           <span>
