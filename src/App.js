@@ -8,6 +8,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Support from './components/Support';
 import Footer from './components/Footer';
+import Order from './components/Order';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="about" element={<About />}></Route>
           <Route exact path="services" element={<Services />}></Route>
           <Route exact path="support" element={<Support />}></Route>
+          <Route exact path="order" element={<Order />}></Route>
           <Route exact path="login" element={<Login />}></Route>
           <Route exact path="signup" element={<Signup />}></Route>
         </Routes>

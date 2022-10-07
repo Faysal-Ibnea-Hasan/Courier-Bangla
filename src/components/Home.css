@@ -3,10 +3,12 @@
     padding: 0;
 }
 .animated-typing{
-    margin: 287px;
-    font-size: xx-large;
+    margin: 100px;
+    font-size: large;
     font-family: "Montserrat", sans-serif;
     font-weight: 600px;
+    padding-left: 20%;
+    padding-right: 10%;
     
     
     
@@ -17,7 +19,7 @@ strong{
     font-size: 50px;
 }
 .small-typing{
-    font-size: large;
+    font-size: small;
     
    
 }
@@ -29,5 +31,50 @@ strong{
 .container-home{
     height: 50vh;
     width: 78vw;
-    margin: 300px;
+    margin: 200px;
+    margin-top: 4%;
+}
+.trackId{
+    height: 10vh;
+    width: 60vw;
+    margin: 100px;
+    
+    padding-left: 100px;
+}
+.trackIdbox{
+    height: 10vh;
+    width: 40vw;
+    background-color: white;
+    margin: auto;
+    
+}
+.fxg-field__input-text {
+    background: #24252A;
+    font-size: 20px;
+    font-weight: 300;
+    width: calc(100% - 3px);
+    padding: 15px 15px 15px 30px;
+    border: 0px;
+    border-radius: 25px;
+    box-shadow: none;
+    color:whitesmoke
+}
+.fxg-app__single-tracking .fxg-field__placeholder {
+    color: whitesmoke
+}
+
+.fxg-field .placeholder {
+    position: absolute;
+    left: 15px;
+    top: 24px;
+}
+.trackIdbox-content{
+    padding-left: 120px;
+    padding-right: 120px;
+    
+
+}
+.fxg-button{
+    align-items: center;
+    margin-left: 40%;
 }
