@@ -85,7 +85,7 @@
     transform: scale(1.2);
     box-shadow: 5px 5px 15px #24252A;;
 }
-.heading h1{
+.service-heading h1{
     display: flex;
     align-items: center;
     justify-content: center;

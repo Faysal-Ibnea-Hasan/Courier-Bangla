@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function Services() {
   return (
     <>
-    <div className='heading'>
+    <div className='service-heading'>
       <h1>Our Services</h1>
     </div>
       <div className="body">
